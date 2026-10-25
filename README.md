@@ -16,6 +16,15 @@ Program nie obiecuje konkretnej liczby FPS, redukcji opóźnień ani niższego p
 
 Nie wyłączamy Windows Defendera, aktualizacji zabezpieczeń ani mechanizmów antycheat. Nie stosujemy przypadkowych zmian zegarów, HPET, TCP ani obietnic „zerowego input laga”. Nie czyścimy pamięci shaderów: jej odbudowa może powodować przycięcia.
 
+## Najprostsze uruchomienie na Windows
+
+1. Zainstaluj **Node.js LTS** z https://nodejs.org/ (jeśli jeszcze go nie masz).
+2. Pobierz ZIP projektu i wybierz **Wyodrębnij wszystkie**. Rozpakuj cały projekt.
+3. W rozpakowanym folderze kliknij dwukrotnie **URUCHOM_VEYRA.cmd**.
+4. Przy pierwszym uruchomieniu poczekaj kilka minut na pobranie potrzebnych plików. Następnie otworzy się okno Veyra.
+
+Plik sam wybiera właściwy folder. Przy kolejnych uruchomieniach korzysta z zainstalowanych plików, a po zmianie zależności odświeża je na podstawie lockfile. W razie błędu okno pozostaje otwarte z komunikatem do skopiowania lub sfotografowania.
+
 ## Uruchomienie podglądu w przeglądarce
 
 Wymagany Node.js 22.12+ lub 24 LTS i npm. W katalogu repozytorium:
